@@ -1,0 +1,166 @@
+body{
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0px 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: light;
+}
+
+h1{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+
+.title-image{
+  width: 60%;
+  margin-left: 20%;
+  transform: rotate(25deg);
+}
+
+.box-align{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.feature-margin{
+  margin:5% 5%;
+}
+
+.icon-pref{
+  font-size: 50px;
+  color: #ef8172;
+}
+
+.icon-pref:hover{
+  color: #ff4c68;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p{
+  font-family: "Montserrat";
+  font-weight: lighter;
+  color: #8f8f8f;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+}
+
+#testimonials h2{
+  color: white;
+}
+
+
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: black;
+}
+
+.testimonial-image{
+  width: 70px;
+  border-radius: 100%;
+  margin: 4px;
+}
+
+.carousel-item{
+  padding: 10% 15%;
+}
+
+em{
+  color: white;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.banner-size{
+  width: 17%;
+}
+
+.colour{
+  color:black;
+}
+
+.pricing-column{
+  padding: 4% 2%;
+}
+
+@media (max-width: 1000px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    transform: rotate(0deg);
+    margin-left: 0px;
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 10%;
+}
+
+#cta h3{
+  font-size: 3rem;
+}
+
+#footer{
+  background-color: #fff;
+  padding: 5%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.social-icons{
+  margin: 0px 5px 5px 5px;
+}
